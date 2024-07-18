@@ -2,8 +2,8 @@ import React from "react";
 
 const HeaderAndDescription = () => {
   return (
-    <div className="flex flex-col justify-center gap-5 p-1 text-center lg:max-w-screen-sm">
-      <h1 className="scroll-m-20 text-3xl md:text-4xl font-extrabold lg:text-5xl tracking-wide leading-[110%] lg:leading-[115%]">
+    <div className="flex flex-col items-center justify-center gap-3 p-1 text-center lg:max-w-screen-sm">
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-wide leading-[110%] bg-gradient-to-b from-zinc-100 to-[#ADADAD] bg-clip-text text-transparent">
         Be the First to Experience the Future – Join Our Waitlist Now!
       </h1>
       <p className="text-lg text-zinc-400">
