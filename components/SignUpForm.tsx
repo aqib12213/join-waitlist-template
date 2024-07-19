@@ -9,7 +9,7 @@ const SignUpForm = () => {
           type="email"
           className="flex w-full max-w-sm px-3 py-1 text-sm transition-colors border rounded-lg shadow-sm h-9 sm:h-12 border-zinc-700 bg-zinc-900/80 file:border-0 placeholder:text-zinc-500 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-200 disabled:cursor-not-allowed disabled:opacity-50"
         />
-        <button className="flex items-center justify-center w-full gap-2 px-4 py-2 duration-150 rounded-lg h-9 sm:h-12 md:w-fit text-nowrap text-zinc-600 bg-zinc-50 hover:bg-zinc-100 active:bg-zinc-200">
+        <button className="flex items-center justify-center w-full gap-2 px-4 py-2 font-semibold duration-150 rounded-lg h-9 sm:h-12 md:w-fit text-nowrap text-zinc-900 bg-zinc-50 hover:bg-zinc-400 active:bg-zinc-200">
           Join waitlist
           <svg
             xmlns="http://www.w3.org/2000/svg"
